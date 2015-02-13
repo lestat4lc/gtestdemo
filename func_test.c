@@ -129,5 +129,6 @@ int main(int argc,char* argv[])
 	//testing::GTEST_FLAG(output) = "xml:";
 	testing::AddGlobalTestEnvironment(new fooEnvironment());
 	testing::InitGoogleTest(&argc,argv);
+	int i = "sb"; 
 	return RUN_ALL_TESTS();
 }
