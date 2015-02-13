@@ -74,7 +74,7 @@ TEST_P(IsPrimeParamTest,HandleTrueRet)
 	EXPECT_TRUE(IsPrime(n));
 }
 
-INSTANTIATE_TEST_CASE_P(paramtest,IsPrimeParamTest,testing::Range(2,3));
+INSTANTIATE_TEST_CASE_P(paramtest,IsPrimeParamTest,testing::Range(1,3));
 
 ///////////////////////////////////////////////////////////////////////////////////
 
