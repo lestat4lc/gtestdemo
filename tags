@@ -1,0 +1,17 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+FUNC_H_	func.h	2;"	d
+GTEST_DIR	Makefile	/^GTEST_DIR = ~\/gtest-1.6.0$/;"	m
+GTEST_HEADERS	Makefile	/^GTEST_HEADERS = $(GTEST_DIR)\/include\/gtest\/*.h \\$/;"	m
+GTEST_SRCS_	Makefile	/^GTEST_SRCS_ = $(GTEST_DIR)\/src\/*.cc $(GTEST_DIR)\/src\/*.h $(GTEST_HEADERS)$/;"	m
+TEST	func_test.c	/^TEST(Func_test,test_negtive)$/;"	f
+TEST	func_test.c	/^TEST(Func_test,test_positive)$/;"	f
+TEST	func_test.c	/^TEST(Func_test,test_zero)$/;"	f
+TESTS	Makefile	/^TESTS = func_test$/;"	m
+USER_DIR	Makefile	/^USER_DIR = .\/$/;"	m
+func	func.c	/^int func(int n)$/;"	f	signature:(int n)
+func	func.h	/^int func(int n);$/;"	p	signature:(int n)
