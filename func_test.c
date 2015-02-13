@@ -74,7 +74,7 @@ TEST_P(IsPrimeParamTest,HandleTrueRet)
 	EXPECT_TRUE(IsPrime(n));
 }
 
-INSTANTIATE_TEST_CASE_P(paramtest,IsPrimeParamTest,testing::Range(1,3));
+INSTANTIATE_TEST_CASE_P(paramtest,IsPrimeParamTest,testing::Range(2,3));
 
 ///////////////////////////////////////////////////////////////////////////////////
 
@@ -129,6 +129,5 @@ int main(int argc,char* argv[])
 	//testing::GTEST_FLAG(output) = "xml:";
 	testing::AddGlobalTestEnvironment(new fooEnvironment());
 	testing::InitGoogleTest(&argc,argv);
-	int i = "sb"; 
 	return RUN_ALL_TESTS();
 }

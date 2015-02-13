@@ -15,7 +15,7 @@
 # Points to the root of Google Test, relative to where this file is.
 # Remember to tweak this if you move this file.
 
-GTEST_DIR = ~/gtest-1.6.0
+GTEST_DIR = /home/lc/gtest-1.6.0
 
 # Where to find user code.
 USER_DIR = ./
@@ -61,7 +61,7 @@ GTEST_SRCS_ = $(GTEST_DIR)/src/*.cc $(GTEST_DIR)/src/*.h $(GTEST_HEADERS)
 # gtest_main.a, depending on whether it defines its own main()
 # function.
 
-func.o : $(USER_DIR)/func.c $(USER_DIR)/func.h $(GTEST_HEADERS)
+func.o : $(USER_DIR)/func.c $(USER_DIR)/func.h 
 	$(CXX) $(CPPFLAGS) $(CXXFLAGS) -c $(USER_DIR)/func.c
 
 func_test.o : $(USER_DIR)/func_test.c \
