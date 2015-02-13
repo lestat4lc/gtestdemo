@@ -38,6 +38,7 @@ GTEST_HEADERS = $(GTEST_DIR)/include/gtest/*.h \
 # House-keeping build targets.
 
 all : $(TESTS)
+	$(USER_DIR)$(TESTS)
 
 clean :
 	rm -f $(TESTS) *.o
