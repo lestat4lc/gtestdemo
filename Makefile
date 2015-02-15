@@ -41,7 +41,7 @@ all : $(TESTS)
 #	$(USER_DIR)$(TESTS)
 
 clean :
-	rm -f $(TESTS) *.o
+	rm -f $(TESTS) *.o *.xml
 
 tests :
 	$(USER_DIR)$(TESTS)
